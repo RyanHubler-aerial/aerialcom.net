@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Aerial Communications</title>
+    <meta name="description" content="Get in touch with Aerial Communications. Contact our local helpdesks in Bedford, Altoona, and Huntingdon. Request a site survey or IT assessment.">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="https://aerialcom.net/wp-content/uploads/2024/12/android-chrome-512x512-1-150x150.png" sizes="32x32">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container navbar">
+            <a href="./index.html" class="logo-container" id="nav-logo">
+                <img src="./assets/logo.png" alt="Aerial Communications Logo" class="logo-image">
+            </a>
+            
+            <nav>
+                <ul class="nav-links" id="menu-links">
+                    <li><a href="./index.html" class="nav-link">Home</a></li>
+                    <li><a href="./about.html" class="nav-link">About</a></li>
+                    <li><a href="./residential.html" class="nav-link">Residential</a></li>
+                    <li><a href="./support.html" class="nav-link">Support</a></li>
+                    <li><a href="./contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="nav-actions">
+                <a href="./remote.html" class="btn btn-secondary btn-sm nav-btn-remote">Remote Support</a>
+                <a href="./support.html" class="btn btn-primary btn-sm">Contact Support</a>
+                <button class="hamburger" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="menu-links">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Title / Hero -->
+    <section class="hero" style="padding: 80px 0 50px;">
+        <canvas id="hero-canvas"></canvas>
+        <div class="container" style="text-align: center;">
+            <span class="hero-tagline">Connect With Us</span>
+            <h1 class="hero-title" style="margin-bottom: 1rem;">Contact <span>Our Advisors</span></h1>
+            <p class="hero-description" style="margin: 0 auto; max-width: 680px;">
+                Request network assessments, VoIP service estimates, or field hardware evaluations. Reach out directly or complete the form.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Layout -->
+    <section class="section-alt">
+        <div class="container contact-layout">
+            <!-- Left Column: Details -->
+            <div class="contact-info">
+                <div class="contact-info-block">
+                    <h3>
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                        </svg>
+                        Helpdesk Line
+                    </h3>
+                    <p>For immediate dispatch, sales inquiries, and billing scheduling:</p>
+                    <p><a href="tel:+18146232913" style="font-size: 1.1rem; font-weight: 700;">(814) 623-2913</a></p>
+                </div>
+
+                <div class="contact-info-block">
+                    <h3>
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                        Corporate Email
+                    </h3>
+                    <p>Send project requirements or service descriptions directly to our technicians:</p>
+                    <p><a href="mailto:support@aerialcom.net" style="font-size: 1.1rem; font-weight: 700;">support@aerialcom.net</a></p>
+                </div>
+
+                <div class="contact-info-block">
+                    <h3>
+                        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        Office Hours
+                    </h3>
+                    <ul class="office-hours">
+                        <li><span>Bedford & Altoona (M-F)</span> <span>7:00 AM - 5:30 PM</span></li>
+                        <li><span>Huntingdon (M-Th)</span> <span>7:00 AM - 5:30 PM</span></li>
+                        <li><span>Huntingdon (Friday)</span> <span style="color: var(--text-muted);">Closed</span></li>
+                        <li><span>Weekend / After Hours</span> <span style="font-weight: 600; color: var(--accent-link);">Emergency Dispatch Only</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Right Column: Form -->
+            <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 4px; padding: 2.5rem; box-shadow: var(--shadow-sm);">
+                <h3 font-family="var(--font-sans)" style="margin-bottom: 0.25rem; font-size: 1.25rem; color: var(--text-primary);">Send Business Inquiry</h3>
+                <p style="color: var(--text-muted); margin-bottom: 1.75rem; font-size: 0.85rem;">Fill out the details below and an Aerial Communications advisor will reply shortly.</p>
+                
+                <form id="contact-form" action="#" method="POST" novalidate>
+                    <div class="form-group">
+                        <label for="name" class="form-label">Full Name *</label>
+                        <input type="text" id="name" name="name" class="form-input" placeholder="Your full name" required>
+                        <span class="error-message">Name is required.</span>
+                    </div>
+
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="you@company.com" required>
+                            <span class="error-message">A valid email address is required.</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="(123) 456-7890" required>
+                            <span class="error-message">Phone number is required.</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="company" class="form-label">Company Name</label>
+                        <input type="text" id="company" name="company" class="form-input" placeholder="Your business name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message Details *</label>
+                        <textarea id="message" name="message" class="form-textarea" placeholder="Detail how our IT technicians can help you." required></textarea>
+                        <span class="error-message">Please enter your message details.</span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Send Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="./index.html" class="logo-container">
+                    <img src="./assets/logo.png" alt="Aerial Communications Logo" class="logo-image">
+                </a>
+                <p>Managed Service Provider delivering design, installation, and management of business IT systems since 2014.</p>
+            </div>
+            
+            <div class="footer-nav">
+                <span class="footer-nav-title">Company</span>
+                <a href="./index.html" class="footer-link">Home</a>
+                <a href="./about.html" class="footer-link">About Us</a>
+                <a href="./residential.html" class="footer-link">Residential Services</a>
+                <a href="./support.html" class="footer-link">Support Portals</a>
+                <a href="./contact.html" class="footer-link">Contact</a>
+            </div>
+
+            <div class="footer-nav">
+                <span class="footer-nav-title">Services</span>
+                <a href="./index.html#services" class="footer-link">Network Cabling</a>
+                <a href="./index.html#services" class="footer-link">VoIP Phone Systems</a>
+                <a href="./index.html#services" class="footer-link">Access Controls</a>
+                <a href="./index.html#services" class="footer-link">Starlink Installs</a>
+            </div>
+
+            <div class="footer-nav">
+                <span class="footer-nav-title">Contact Support</span>
+                <ul class="footer-contact-info">
+                    <li><strong>Phone:</strong> <a href="tel:+18146232913">(814) 623-2913</a></li>
+                    <li><strong>Email:</strong> <a href="mailto:support@aerialcom.net">support@aerialcom.net</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Aerial Communications. All rights reserved. Managed Service Provider.</p>
+            <p>Providing high-availability IT services to PA commercial clients.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./js/main.js"></script>
+</body>
+</html>

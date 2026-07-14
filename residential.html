@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Residential Services - Aerial Communications</title>
+    <meta name="description" content="Residential computer repair, virus removal, and data recovery services, offered exclusively at our Huntingdon, PA office.">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="https://aerialcom.net/wp-content/uploads/2024/12/android-chrome-512x512-1-150x150.png" sizes="32x32">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container navbar">
+            <a href="./index.html" class="logo-container" id="nav-logo">
+                <img src="./assets/logo.png" alt="Aerial Communications Logo" class="logo-image">
+            </a>
+            
+            <nav>
+                <ul class="nav-links" id="menu-links">
+                    <li><a href="./index.html" class="nav-link">Home</a></li>
+                    <li><a href="./about.html" class="nav-link">About</a></li>
+                    <li><a href="./residential.html" class="nav-link active">Residential</a></li>
+                    <li><a href="./support.html" class="nav-link">Support</a></li>
+                    <li><a href="./contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="nav-actions">
+                <a href="./remote.html" class="btn btn-secondary btn-sm nav-btn-remote">Remote Support</a>
+                <a href="./support.html" class="btn btn-primary btn-sm">Contact Support</a>
+                <button class="hamburger" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="menu-links">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="hero" style="padding: 80px 0 50px;">
+        <canvas id="hero-canvas"></canvas>
+        <div class="container" style="text-align: center;">
+            <span class="hero-tagline">Walk-In Services</span>
+            <h1 class="hero-title" style="margin-bottom: 1rem;">Residential <span>IT Support</span></h1>
+            <p class="hero-description" style="margin: 0 auto; max-width: 680px;">
+                Walk-in computer diagnostics, cleanups, and data recovery for personal computers and household devices.
+            </p>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="section-alt">
+        <div class="container" style="max-width: 800px;">
+            
+            <!-- Alert box: Huntingdon Exclusive -->
+            <div style="background-color: #f0f7ff; border: 1px solid #dbeafe; border-left: 4px solid var(--accent-primary); border-radius: 0 4px 4px 0; padding: 1.5rem; margin-bottom: 2.5rem; display: flex; gap: 14px; align-items: flex-start;">
+                <svg style="color: var(--accent-primary); width: 24px; height: 24px; flex-shrink: 0; margin-top: 2px;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                </svg>
+                <div>
+                    <h3 style="color: #1e3a8a; margin: 0 0 4px 0; font-size: 1.05rem; font-weight: 700;">Huntingdon Location Exclusive</h3>
+                    <p style="color: #1e40af; margin: 0; font-size: 0.9rem; line-height: 1.5;">
+                        Please note that all residential and personal device repairs are performed <strong style="color: #1e3a8a; font-weight: 700;">exclusively at our Huntingdon Office</strong>. Our Bedford and Altoona offices focus solely on commercial enterprise and field integrations.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Services Offered -->
+            <h2 style="font-size: 1.5rem; color: var(--text-primary); margin-bottom: 1.5rem; text-align: center;">Offered Services</h2>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 3rem;">
+                
+                <!-- cleanup -->
+                <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-color); padding: 1.75rem; border-radius: 4px;">
+                    <h3 style="font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 8px;">
+                        <svg style="width: 18px; height: 18px; color: var(--accent-primary);" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path>
+                        </svg>
+                        PC Cleanups
+                    </h3>
+                    <p style="color: var(--text-secondary); font-size: 0.875rem; line-height: 1.5; margin: 0;">
+                        Remove viruses, adware, tracking cookies, and malicious applications. We optimize system registry files, clean startup items, and configure security tools.
+                    </p>
+                </div>
+
+                <!-- data recovery -->
+                <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-color); padding: 1.75rem; border-radius: 4px;">
+                    <h3 style="font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 8px;">
+                        <svg style="width: 18px; height: 18px; color: var(--accent-primary);" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path>
+                        </svg>
+                        Data Recovery
+                    </h3>
+                    <p style="color: var(--text-secondary); font-size: 0.875rem; line-height: 1.5; margin: 0;">
+                        Retrieve deleted files, photos, and crucial business documents from broken or failing hard disk drives, SSDs, and storage cards.
+                    </p>
+                </div>
+
+                <!-- setup -->
+                <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-color); padding: 1.75rem; border-radius: 4px;">
+                    <h3 style="font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 8px;">
+                        <svg style="width: 18px; height: 18px; color: var(--accent-primary);" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="2" y="3" width="20" height="14" rx="2" stroke-width="2"></rect>
+                            <path stroke-linecap="round" d="M8 21h8m-4-4v4"></path>
+                        </svg>
+                        Device Diagnostics & Setup
+                    </h3>
+                    <p style="color: var(--text-secondary); font-size: 0.875rem; line-height: 1.5; margin: 0;">
+                        Perform hardware evaluations, replace broken laptop screens, install RAM or solid-state drive upgrades, and set up brand new retail computers.
+                    </p>
+                </div>
+
+                <!-- OS reinstall -->
+                <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-color); padding: 1.75rem; border-radius: 4px;">
+                    <h3 style="font-size: 1.1rem; color: var(--text-primary); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 8px;">
+                        <svg style="width: 18px; height: 18px; color: var(--accent-primary);" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                        </svg>
+                        OS Reinstallation
+                    </h3>
+                    <p style="color: var(--text-secondary); font-size: 0.875rem; line-height: 1.5; margin: 0;">
+                        Clean reinstallations of Windows and macOS, driver configuration, system updates, and basic application setup to make older machines run like new.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- What We Do Not Do -->
+            <div style="border-top: 1px solid var(--border-color); padding-top: 2rem; text-align: center;">
+                <p style="color: var(--text-muted); font-size: 0.85rem; max-width: 600px; margin: 0 auto; line-height: 1.5;">
+                    <strong>Service Exclusions:</strong> Please note that we do not offer residential telephone line installations, landline configurations, mobile phone or tablet hardware repairs (such as cracked glass screen replacement or charging port fixes), or voice network routing for home users.
+                </p>
+                <div style="margin-top: 2rem;">
+                    <a href="./contact.html" class="btn btn-primary">View Huntingdon Office Hours</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="./index.html" class="logo-container">
+                    <img src="./assets/logo.png" alt="Aerial Communications Logo" class="logo-image">
+                </a>
+                <p>Managed Service Provider delivering design, installation, and management of business IT systems since 2014.</p>
+            </div>
+            
+            <div class="footer-nav">
+                <span class="footer-nav-title">Company</span>
+                <a href="./index.html" class="footer-link">Home</a>
+                <a href="./about.html" class="footer-link">About Us</a>
+                <a href="./residential.html" class="footer-link">Residential Services</a>
+                <a href="./support.html" class="footer-link">Support Portals</a>
+                <a href="./contact.html" class="footer-link">Contact</a>
+            </div>
+
+            <div class="footer-nav">
+                <span class="footer-nav-title">Services</span>
+                <a href="./index.html#services" class="footer-link">Network Cabling</a>
+                <a href="./index.html#services" class="footer-link">VoIP Phone Systems</a>
+                <a href="./index.html#services" class="footer-link">Access Controls</a>
+                <a href="./index.html#services" class="footer-link">Starlink Installs</a>
+            </div>
+
+            <div class="footer-nav">
+                <span class="footer-nav-title">Contact Support</span>
+                <ul class="footer-contact-info">
+                    <li><strong>Phone:</strong> <a href="tel:+18146232913">(814) 623-2913</a></li>
+                    <li><strong>Email:</strong> <a href="mailto:support@aerialcom.net">support@aerialcom.net</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Aerial Communications. All rights reserved. Managed Service Provider.</p>
+            <p>Providing high-availability IT services to PA commercial clients.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./js/main.js"></script>
+</body>
+</html>

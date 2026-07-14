@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Center - Aerial Communications</title>
+    <meta name="description" content="Commercial IT helpdesk and security alarm support routing portals for Aerial Communications clients.">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="https://aerialcom.net/wp-content/uploads/2024/12/android-chrome-512x512-1-150x150.png" sizes="32x32">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container navbar">
+            <a href="./index.html" class="logo-container" id="nav-logo">
+                <img src="./assets/logo.png" alt="Aerial Communications Logo" class="logo-image">
+            </a>
+            
+            <nav>
+                <ul class="nav-links" id="menu-links">
+                    <li><a href="./index.html" class="nav-link">Home</a></li>
+                    <li><a href="./about.html" class="nav-link">About</a></li>
+                    <li><a href="./residential.html" class="nav-link">Residential</a></li>
+                    <li><a href="./support.html" class="nav-link">Support</a></li>
+                    <li><a href="./contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="nav-actions">
+                <a href="./remote.html" class="btn btn-secondary btn-sm nav-btn-remote">Remote Support</a>
+                <a href="./support.html" class="btn btn-primary btn-sm">Contact Support</a>
+                <button class="hamburger" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="menu-links">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Support Hero -->
+    <section class="hero" style="padding: 80px 0 50px;">
+        <canvas id="hero-canvas"></canvas>
+        <div class="container" style="text-align: center;">
+            <span class="hero-tagline">Client Assistance</span>
+            <h1 class="hero-title" style="margin-bottom: 1rem;">Support <span>Center</span></h1>
+            <p class="hero-description" style="margin: 0 auto; max-width: 680px;">
+                Access our technical departments. Submit an IT service ticket or link directly to our physical security service division.
+            </p>
+        </div>
+    </section>
+
+    <!-- Support Portals -->
+    <section class="section-alt" style="padding-bottom: 50px;">
+        <div class="container">
+            <div class="support-options">
+                <!-- Portal 1: IT Support -->
+                <div class="support-option-card">
+                    <h2>
+                        <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                        IT & Voice Services
+                    </h2>
+                    <p>Open tickets for computers, printers, local networks, VoIP systems, and telecommunication hardware:</p>
+                    <ul class="support-checklist">
+                        <li>Computers & Local Workstations</li>
+                        <li>Network Cabling & Switch Issues</li>
+                        <li>Wi-Fi Access & Client VPNs</li>
+                        <li>VoIP Telephones & IP PBX</li>
+                    </ul>
+                    <a href="#ticket-form" class="btn btn-primary">Open Service Ticket</a>
+                </div>
+
+                <!-- Portal 2: Security Support -->
+                <div class="support-option-card">
+                    <h2>
+                        <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path>
+                        </svg>
+                        Security & Alarms
+                    </h2>
+                    <p>Access technical help regarding physical facilities protection, access controllers, and fire security systems:</p>
+                    <ul class="support-checklist">
+                        <li>Fire Alarm & Sensor Assemblies</li>
+                        <li>CCTV & IP Surveillance Cameras</li>
+                        <li>Access Control Readers & Badges</li>
+                        <li>Intrusion Alarms & Panels</li>
+                    </ul>
+                    <a href="https://overwatchus.com/support/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Go to Overwatch Support</a>
+                </div>
+
+                <!-- Portal 3: Remote Support -->
+                <div class="support-option-card">
+                    <h2>
+                        <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                        </svg>
+                        Remote Support
+                    </h2>
+                    <p>Connect with a technician for secure, code-authenticated one-time screen sharing and interactive diagnostics:</p>
+                    <ul class="support-checklist">
+                        <li>Instant Remote Connection</li>
+                        <li>No Permanent Software Setup</li>
+                        <li>Technician-Guided Session</li>
+                        <li>Secure Encrypted Sharing</li>
+                    </ul>
+                    <a href="./remote.html" class="btn btn-secondary">Launch Remote Tool</a>
+                </div>
+            </div>
+            
+            <!-- Immediate Contacts -->
+            <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 4px; padding: 2.25rem; text-align: center; box-shadow: var(--shadow-sm);">
+                <h3 font-family="var(--font-sans)" style="margin-bottom: 0.5rem; font-size: 1.15rem; color: var(--text-primary);">Emergency Dispatch Helpline</h3>
+                <p style="color: var(--text-secondary); margin-bottom: 1.25rem; font-size: 0.9rem;">For critical system failure, please call our engineering helpdesk immediately.</p>
+                <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
+                    <a href="tel:+18146232913" style="font-weight: 700; color: var(--accent-link); display: inline-flex; align-items: center; gap: 6px; font-size: 0.95rem;">
+                        <svg style="width: 16px; height: 16px;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                        (814) 623-2913
+                    </a>
+                    <a href="mailto:support@aerialcom.net" style="font-weight: 700; color: var(--accent-link); display: inline-flex; align-items: center; gap: 6px; font-size: 0.95rem;">
+                        <svg style="width: 16px; height: 16px;" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        support@aerialcom.net
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Ticket Form Section -->
+    <section id="ticket-form">
+        <div class="container">
+            <div class="support-form-section">
+                <h2 class="form-title">Submit Service Ticket</h2>
+                <p class="form-description">Fill out the details below. Our field technicians will assign a service case and coordinate solutions.</p>
+                
+                <form id="support-form" action="#" method="POST" novalidate>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Contact Name *</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required>
+                            <span class="error-message">Contact name is required.</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="company" class="form-label">Company Name</label>
+                            <input type="text" id="company" name="company" class="form-input" placeholder="Your company name">
+                        </div>
+                    </div>
+                    
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="you@company.com" required>
+                            <span class="error-message">A valid email address is required.</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="(123) 456-7890">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group form-group-full">
+                        <label for="category" class="form-label">Problem Category *</label>
+                        <select id="category" name="category" class="form-select" required>
+                            <option value="">Choose category...</option>
+                            <option value="network">Network/Wi-Fi Connection</option>
+                            <option value="computer">Computer/Printer Hardware</option>
+                            <option value="telecom">VoIP Phones & Channels</option>
+                            <option value="av">Conference Room Audio/Video</option>
+                            <option value="other">Other Operations Request</option>
+                        </select>
+                        <span class="error-message">Please select a problem category.</span>
+                    </div>
+
+                    <div class="form-group form-group-full">
+                        <label for="message" class="form-label">Description of Issue *</label>
+                        <textarea id="message" name="message" class="form-textarea" placeholder="Detail the technical issue you are experiencing." required></textarea>
+                        <span class="error-message">Please provide a description of the issue.</span>
+                    </div>
+
+                    <div style="text-align: right; margin-top: 1rem;">
+                        <button type="submit" class="btn btn-primary" style="width: 100%; max-width: 180px;">Submit Ticket</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="./index.html" class="logo-container">
+                    <img src="./assets/logo.png" alt="Aerial Communications Logo" class="logo-image">
+                </a>
+                <p>Managed Service Provider delivering design, installation, and management of business IT systems since 2014.</p>
+            </div>
+            
+            <div class="footer-nav">
+                <span class="footer-nav-title">Company</span>
+                <a href="./index.html" class="footer-link">Home</a>
+                <a href="./about.html" class="footer-link">About Us</a>
+                <a href="./residential.html" class="footer-link">Residential Services</a>
+                <a href="./support.html" class="footer-link">Support Portals</a>
+                <a href="./contact.html" class="footer-link">Contact</a>
+            </div>
+
+            <div class="footer-nav">
+                <span class="footer-nav-title">Services</span>
+                <a href="./index.html#services" class="footer-link">Network Cabling</a>
+                <a href="./index.html#services" class="footer-link">VoIP Phone Systems</a>
+                <a href="./index.html#services" class="footer-link">Access Controls</a>
+                <a href="./index.html#services" class="footer-link">Starlink Installs</a>
+            </div>
+
+            <div class="footer-nav">
+                <span class="footer-nav-title">Contact Support</span>
+                <ul class="footer-contact-info">
+                    <li><strong>Phone:</strong> <a href="tel:+18146232913">(814) 623-2913</a></li>
+                    <li><strong>Email:</strong> <a href="mailto:support@aerialcom.net">support@aerialcom.net</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Aerial Communications. All rights reserved. Managed Service Provider.</p>
+            <p>Providing high-availability IT services to PA commercial clients.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
